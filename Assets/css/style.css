@@ -59,7 +59,11 @@ aside {
     border-right: black 5px solid;
     width: 10%;
 }
-
+.textbox{
+    position: relative;
+    display: block;
+    width: 50%;
+}
 section {
     flex: 70%;
     flex-wrap: wrap;
@@ -72,10 +76,23 @@ section {
 }
 .caption{
     position: absolute;
-    top:26rem;
-    left: 4.2rem;
-    height: 3rem;
-    width: 8rem;
+    bottom: 13px;
+    left: 45px;
+    height: 50px;
+    width: 100px;
+    background-color: #696969;
+    color:black;
+    text-align: center;
+    z-index:100;
+
+}
+
+.caption1{
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    height: 50px;
+    width: 100px;
     background-color: #696969;
     color:black;
     text-align: center;
@@ -92,7 +109,7 @@ div {
 }
 
 .smallphoto {
-    width: 45%;
+    width: 83%;
     float: left;
     margin: 2%;
     border: #696969 5px solid;
@@ -100,8 +117,11 @@ div {
 
 .bigphoto {
     width: 91.8%;
-    margin: 2%;
+    margin: 2%; 
     border: #696969 5px solid;
+}
+.size{
+    width: 95%;
 }
 
 @media only screen and (min-width: 992px) {}
